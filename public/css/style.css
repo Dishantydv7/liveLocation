@@ -1,0 +1,40 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container for the map */
+#map {
+    width: 80vw;        /* 80% of the viewport width */
+    height: 80vh;       /* 80% of the viewport height */
+    border: 2px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Leaflet specific styling */
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Add a simple heading or message (if needed) */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
